@@ -1,4 +1,3 @@
-// Color类
 class Color {
     private String color;
 
@@ -10,20 +9,15 @@ class Color {
         return color;
     }
 }
-
-// Adder类
 class Adder {
-    // 整数加法
-    public long add(int a, int b) {
+        public long add(int a, int b) {
         return a + b;
     }
 
-    // 字符串拼接
     public String add(String a, String b) {
         return a.concat(b);
     }
 
-    // 颜色混合
     public Color add(Color c1, Color c2) {
         String color1 = c1.getColor();
         String color2 = c2.getColor();
@@ -42,7 +36,5 @@ class Adder {
     }
 }
 
-// method_overload_v2类，继承Adder
 public class method_overload_v2 extends Adder {
-    // 这里可以添加你自己的扩展方法或属性
 }
